@@ -2,6 +2,9 @@ import Project_card from "../project_card/Project_card";
 import first from "./imgs/project1.jpg";
 import second from "./imgs/project2.jpg";
 import third from "./imgs/project3.jpg";
+import forth from "./imgs/project4.jpg";
+import fifth from "./imgs/project5.jpg";
+import sixth from "./imgs/project6.jpg";
 
 const Projects = () => {
   // date
@@ -26,6 +29,27 @@ const Projects = () => {
       title: "Class Monitor",
       disc: "A full stack application for taking down my students records, assignments and projects",
       link: "https://classmonitor.netlify.app/"
+    },
+    {
+      img: forth,
+      langs: ["jsx", "css", "javascript", "node.js", "express js", "mongo db"],
+      title: "Elx Academy",
+      disc: "A full stack application for registering students who wants to learn tech skills",
+      link: "https://elx-academy.netlify.app/"
+    },
+    {
+      img: fifth,
+      langs: ["jsx", "css", "javascript", "node.js", "express js", "mongo db"],
+      title: "My Students Records",
+      disc: "A full stack application for taking down my students records to keep track of their training period",
+      link: "https://mystudentsrecords.netlify.app/"
+    },
+    {
+      img: sixth,
+      langs: ["jsx", "css", "javascript", "node.js", "express js"],
+      title: "Frank AI",
+      disc: "A clone of ChatGpt making use of Open AI's API for the development.",
+      link: "https://frankai.netlify.app"
     },
   ];
 
