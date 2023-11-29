@@ -8,21 +8,24 @@ const Projects = () => {
   const projects = [
     {
       img: first,
-      langs: ["html", "css", "javascript", "react", "tailwind css"],
-      title: "ChertNodes",
-      disc: "Minecraft servers hosting ",
+      langs: ["jsx", "css", "javascript", "react", "tailwind css", "node js", "express js", "mongo db"],
+      title: "E-Invoice",
+      disc: "A Sass for recording sales and generating of receipts both in pdf format and image",
+      link: "https://invoice-application-three.vercel.app/"
     },
     {
       img: second,
-      langs: ["html", "css", "javascript", "Node.js"],
-      title: "ProtectX",
-      disc: "Discord anti-crash bot ",
+      langs: ["html", "css", "javascript", "owl carousel"],
+      title: "Homyz",
+      disc: "A landing page for a real estate website",
+      link: "https://frank-real-estate.netlify.app"
     },
     {
       img: third,
-      langs: ["html", "css", "javascript", "Node.js", "python"],
-      title: "Kahoot Answers Viewer",
-      disc: "Get answers to your kahoot quiz ",
+      langs: ["jsx", "css", "javascript", "node.js", "express js", "mongo db"],
+      title: "Class Monitor",
+      disc: "A full stack application for taking down my students records, assignments and projects",
+      link: "https://classmonitor.netlify.app/"
     },
   ];
 
@@ -48,7 +51,7 @@ const Projects = () => {
         {/* bottom */}
         <div className="flex flex-wrap justify-between gap-4 my-12">
           {/* cards */}
-          {projects.map(({ img, langs, title, disc }) => {
+          {projects.map(({ img, langs, title, disc, link }) => {
             return (
               <>
                 <Project_card
@@ -56,6 +59,7 @@ const Projects = () => {
                   langs={langs}
                   title={title}
                   disc={disc}
+                  link={link}
                 />
               </>
             );

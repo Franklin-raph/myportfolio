@@ -1,18 +1,22 @@
+import { useNavigate } from "react-router";
 import "./about.css";
 
 const About = () => {
+
+  const navigate = useNavigate()
+   
   return (
     <>
       <div className="px-5 max-w-[1560px] mx-auto min-h-screen pt-20 flex items-center justify-between flex-wrap">
         <div data-aos="fade-right" className=" w-10/12 sm:w-8/12 mx-auto">
           <h1 className="font-semibold text-[32px] text-white mb-3">
-            Frank is a <span className="text-[#C778DD]">web designer</span> and{" "}
-            <span className="text-[#C778DD]">front-end developer.</span>
+            Frank is a <span className="text-[#C778DD]">web developer</span> who majors in
+            <span className="text-[#C778DD]"> front-end development.</span>
           </h1>
           <p className="text-[#ABB2BF] my-6">
             He crafts responsive websites where technologies meet creativity.
           </p>
-          <button className="text-white font-medium py-2 px-4 border duration-200 border-[#C778DD] hover:bg-[#C778DD33]">
+          <button onClick={() => navigate("/contact")} className="text-white font-medium py-2 px-4 border duration-200 border-[#C778DD] hover:bg-[#C778DD33]">
             Contact me!!
           </button>
         </div>
