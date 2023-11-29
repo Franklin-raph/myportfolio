@@ -19,7 +19,7 @@ const Contact = () => {
                     </div>
                 </div>
                 {/* right side */}
-                <div className=" flex gap-3">
+                <div className="flex flex-col sm:flex-row gap-3">
                     {/* boxes/flex */}
                     {/* 1 */}
                     <div className=" p-4 border border-[#ABB2BF]">
