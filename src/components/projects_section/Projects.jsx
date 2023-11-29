@@ -5,16 +5,40 @@ import third from "./imgs/project3.jpg";
 import forth from "./imgs/project4.jpg";
 import fifth from "./imgs/project5.jpg";
 import sixth from "./imgs/project6.jpg";
+import seventh from "./imgs/project7.jpg";
+import eight from "./imgs/project8.jpg";
+import ninth from "./imgs/project9.jpg";
 
 const Projects = () => {
   // date
   const projects = [
+    {
+      img: seventh,
+      langs: ["jsx", "css", "javascript", "react", "tailwind css", "node js"],
+      title: "The farm house club",
+      disc: "A full stack web application for investors in the agricultural industry",
+      link: "https://thefarmhouseclub.io/"
+    },
+    {
+      img: eight,
+      langs: ["jsx", "react", "css", "javascript"],
+      title: "Heart Felt",
+      disc: "A full stack web appllication for customization and distribution of cards to loved ones",
+      link: "https://new-heartfelt.vercel.app/"
+    },
     {
       img: first,
       langs: ["jsx", "css", "javascript", "react", "tailwind css", "node js", "express js", "mongo db"],
       title: "E-Invoice",
       disc: "A Sass for recording sales and generating of receipts both in pdf format and image",
       link: "https://invoice-application-three.vercel.app/"
+    },
+    {
+      img: ninth,
+      langs: ["html", "css", "javascript", "bootstrap"],
+      title: "The Go travels",
+      disc: "Landing page for an applcation for booking travels and tours",
+      link: "https://thegotravels.com/"
     },
     {
       img: second,
@@ -25,7 +49,7 @@ const Projects = () => {
     },
     {
       img: third,
-      langs: ["jsx", "css", "javascript", "node.js", "express js", "mongo db"],
+      langs: ["jsx", "css", "javascript", "material UI", "node.js", "express js", "mongo db"],
       title: "Class Monitor",
       disc: "A full stack application for taking down my students records, assignments and projects",
       link: "https://classmonitor.netlify.app/"

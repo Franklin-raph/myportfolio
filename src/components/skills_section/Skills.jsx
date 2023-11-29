@@ -4,7 +4,7 @@ const Skills = () => {
       title: "Languages",
       languages: ["HTML", "CSS", "JavaScript", "Python", "Php", "Arduino"],
     },
-    { title: "Databases", languages: ["PostgreSQL", "Mongo Db"] },
+    { title: "Databases", languages: ["My-SQL", "Mongo Db"] },
     {
       title: "Tools",
       languages: [
@@ -14,11 +14,12 @@ const Skills = () => {
         "Adobe-Illustrator",
         "Git-Bash",
         "Font Awesome",
+        "My-SQL Workbench"
       ],
     },
     {
       title: "Other",
-      languages: ["EJS", "SCSS", "REDUX", "REDUX-TOOL-KIT"],
+      languages: ["EJS", "SCSS", "REDUX", "REDUX-TOOL-KIT", "Mongoose", "Sequelize"],
     },
     {
       title: "Frameworks",
@@ -27,7 +28,8 @@ const Skills = () => {
         "Bootstrap",
         "Tailwind",
         "Material-Ui",
-        "Express.js",
+        "Express js",
+        "Next js"
       ],
     },
   ];
