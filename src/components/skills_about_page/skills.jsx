@@ -3,39 +3,38 @@ import React from 'react'
 const Skills = () => {
     const skills = [
         {
-            title: "Languages",
-            languages: ["TypeScript", "Lua", "Python", "JavaScript"],
+          title: "Languages",
+          languages: ["HTML", "CSS", "JavaScript", "Python", "Php", "Arduino"],
         },
-        { title: "Databases", languages: ["SQLite", "PostgreSQL", "Mongo"] },
+        { title: "Databases", languages: ["My-SQL", "Mongo Db"] },
         {
-            title: "Tools",
-            languages: [
-                "VSCode",
-                "Neovim",
-                "Linux",
-                "Figma",
-                "XFCE",
-                "Arch",
-                "Git",
-                "Font Awesome",
-            ],
-        },
-        {
-            title: "Other",
-            languages: ["HTML", "CSS", "EJS", "SCSS", "REST", "Jinja"],
+          title: "Tools",
+          languages: [
+            "VSCode",
+            "Figma",
+            "Adobe-Photoshop",
+            "Adobe-Illustrator",
+            "Git-Bash",
+            "Font Awesome",
+            "My-SQL Workbench"
+          ],
         },
         {
-            title: "Frameworks",
-            languages: [
-                "React",
-                "Vue",
-                "Disnake",
-                "Discord.js",
-                "Flask",
-                "Express.js",
-            ],
+          title: "Other",
+          languages: ["EJS", "SCSS", "REDUX", "REDUX-TOOL-KIT", "Mongoose", "Sequelize"],
         },
-    ];
+        {
+          title: "Frameworks",
+          languages: [
+            "React",
+            "Bootstrap",
+            "Tailwind",
+            "Material-Ui",
+            "Express js",
+            "Next js"
+          ],
+        },
+      ];
     return (
         <div className="px-5 max-w-[1560px] mx-auto pt-20 py-10">
             {/* title */}

@@ -1,3 +1,6 @@
+import twitterlogo from './imgs/twitter-x-line.png'
+
+
 const Footer = () => {
   return (
     <>
@@ -20,7 +23,7 @@ const Footer = () => {
             </div>
             {/* disc */}
             <div className="text-[#ffffff]">
-              <p>Web designer and front-end developer based in Nigeria</p>
+              <p>Web Developer based in Nigeria</p>
             </div>
           </div>
           {/* right */}
@@ -29,8 +32,9 @@ const Footer = () => {
             <h2 className=" text-white text-2xl font-medium mb-3">Media</h2>
             {/* media */}
             <div className="flex items-center gap-4">
-              <a href="https://www.facebook.com/franklinraphael.aloysius/" target="_blank">
-                <i className="ri-twitter-fill text-[#ABB2BF] text-2xl"></i>
+              <a href="https://www.facebook.com/https://twitter.com/FranklinCh10104/" target="_blank">
+                <i className="ri-twitter-x-fill text-[#ABB2BF] text-2xl"></i>
+                <img src={twitterlogo} alt="" style={{ filter:"invert(1)", width:"20px" }}/>
               </a>
               <a href="https://www.facebook.com/franklinraphael.aloysius/" target="_blank">
                 <i className="ri-facebook-circle-fill text-[#ABB2BF] text-2xl"></i>

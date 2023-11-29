@@ -1,50 +1,54 @@
 import React from 'react'
 
 const Small_projects = () => {
-    // we need to create some dates for this, you can do it by yourselves
-    // we need about 8 projects, but you can add all yours :)
-    // in this video we will create about page
+    
     let projects = [
         {
-            languages: ["VUE", "CSS", "HTML"],
-            title: "Bot boilerplate",
-            body: 'Start creating scalable discord.js bot with typescript in seconds'
+            languages: ["HTML", "CSS", "JavaScript"],
+            title: "My URL Shortner",
+            body: 'Start creating scalable discord.js bot with typescript in seconds',
+            link:"https://my-urlshortner.netlify.app/"
         },
         {
-            languages: ["VUE", "JS", "HTML"],
-            title: "My blog",
-            body: 'Front-end of my future blog website written in vue'
+            languages: ["JSX", "JS", "REACT", "TAILWIND CSS"],
+            title: "My Dictionary Web App",
+            body: 'Front-end of my future blog website written in vue',
+            link:"https://frank-dictionary-web-app.netlify.app/"
         },
         {
-            languages: ["VUE", "Figma", "HTML"],
-            title: "Chess pro",
-            body: 'Figma landing page about service for viewing chess tournaments'
+            languages: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+            title: "IAP Solar",
+            body: 'Figma landing page about service for viewing chess tournaments',
+            link:"https://iapsolar.com/"
         },
         {
-            languages: ["React", "CSS", "HTML"],
-            title: "My blog",
-            body: 'Front-end of my future blog website written in vue'
+            languages: ["JSX", "JS", "REACT", "REST API"],
+            title: "Rest Countries API",
+            body: 'Front-end of my future blog website written in vue',
+            link:"https://frankrestcountriesapi.netlify.app/"
         },
         {
-            languages: ["VUE", "CSS", "HTML"],
-            title: "My blog",
-            body: 'Front-end of my future blog website written in vue'
+            languages: ["JS", "CSS", "HTML"],
+            title: "Tic-Tac-Toe Game",
+            body: 'Front-end of my future blog website written in vue',
+            link:"https://franktictactoe.netlify.app/"
         },
         {
-            languages: ["VUE", "CSS", "HTML"],
-            title: "My blog",
-            body: 'Front-end of my future blog website written in vue'
+            languages: ["JS", "CSS", "HTML"],
+            title: "Web Masters Academy",
+            body: 'Front-end of my future blog website written in vue',
+            link:"https://webmastersacademy.netlify.app/"
         },
-        {
-            languages: ["VUE", "CSS", "HTML"],
-            title: "My blog",
-            body: 'Front-end of my future blog website written in vue'
-        },
-        {
-            languages: ["VUE", "CSS", "HTML"],
-            title: "My blog",
-            body: 'Front-end of my future blog website written in vue'
-        },
+        // {
+        //     languages: ["VUE", "CSS", "HTML"],
+        //     title: "My blog",
+        //     body: 'Front-end of my future blog website written in vue'
+        // },
+        // {
+        //     languages: ["VUE", "CSS", "HTML"],
+        //     title: "My blog",
+        //     body: 'Front-end of my future blog website written in vue'
+        // },
     ]
     // you will write dates by yourselves
     return (
@@ -61,7 +65,7 @@ const Small_projects = () => {
                 {
                     // mapping
                     projects.map(e => {
-                        let { languages, title, body } = e
+                        let { languages, title, body, link } = e
                         return <>
                             {/* card */}
                             <div className="card max-w-[331px] w-full border border-[#ABB2BF]">
@@ -73,11 +77,10 @@ const Small_projects = () => {
                                 </div>
                                 {/* discription */}
                                 <div className="disc p-4">
-                                    <h2 className=' text-white font-medium text-2xl'>{title}</h2>
-                                    <p className=' text-[#ABB2BF] py-4'>{body}</p>
-                                    {/* we are only coders so maybe no one have figma projects */}
+                                    <h2 className=' text-white font-medium text-2xl mb-5'>{title}</h2>
+                                    {/* <p className=' text-[#ABB2BF] py-4'>{body}</p> */}
                                     <button className=' border border-[#C778DD] px-4 py-2 text-white duration-150 hover:bg-[#C778DD33]'>
-                                        <a href="www.github.com">Github {'<'}~{'>'}</a>
+                                        <a href={link}>Live {'<'}~{'>'}</a>
                                     </button>
                                 </div>
                             </div></>

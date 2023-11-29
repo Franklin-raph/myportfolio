@@ -7,7 +7,7 @@ const About_page = () => {
   return <>
     <About />
     <Skills/>
-    <Fun_facts/>
+    {/* <Fun_facts/> */}
   </>;
 };
 export default About_page;
