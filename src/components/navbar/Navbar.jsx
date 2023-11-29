@@ -7,6 +7,12 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   useEffect(()=>{
     Aos.init({duration:1000})
+    console.log(document.querySelectorAll("li span"))
+    document.querySelectorAll("li").forEach(link => {
+      link.addEventListener("click", () => {
+        setToggle(false)
+      })
+    })
   },[])
   return (
     <>
