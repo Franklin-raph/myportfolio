@@ -19,7 +19,7 @@ const Footer = () => {
                 <span>Frank</span>
               </div>
               {/* email */}
-              <span className="text-[#ABB2BF]">igboekwulusifranklin@gmail.com</span>
+              {/* <span className="text-[#ABB2BF]">igboekwulusifranklin@gmail.com</span> */}
             </div>
             {/* disc */}
             <div className="text-[#ffffff]">

@@ -8,6 +8,7 @@ import sixth from "./imgs/project6.jpg";
 import seventh from "./imgs/project7.jpg";
 import eight from "./imgs/project8.jpg";
 import ninth from "./imgs/project9.jpg";
+import {useNavigate} from 'react-router-dom'
 
 const Projects = () => {
   // date
@@ -77,6 +78,8 @@ const Projects = () => {
     },
   ];
 
+  const navigate = useNavigate()
+
   return (
     <>
       <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
@@ -90,10 +93,10 @@ const Projects = () => {
             <div className="line w-2/3 h-px bg-[#C778DD]"></div>
           </div>
           {/* right */}
-          <div className=" text-white font-medium">
-            <a href="">
+          <div className=" text-white font-medium cursor-pointer" onClick={() => navigate('/projects')}>
+            {/* <a href=""> */}
               <span>View all ~~&gt;</span>
-            </a>
+            {/* </a> */}
           </div>
         </div>
         {/* bottom */}
