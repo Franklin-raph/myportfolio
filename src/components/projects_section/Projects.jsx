@@ -46,21 +46,21 @@ const Projects = () => {
       langs: ["html", "css", "javascript", "owl carousel"],
       title: "Homyz",
       disc: "A landing page for a real estate website",
-      link: "https://frank-real-estate.netlify.app"
+      link: "https://real-estate-ebon-omega.vercel.app/"
     },
     {
       img: third,
       langs: ["jsx", "css", "javascript", "material UI", "node.js", "express js", "mongo db"],
       title: "Class Monitor",
       disc: "A full stack application for taking down my students records, assignments and projects",
-      link: "https://classmonitor.netlify.app/"
+      link: "https://classmonitor.vercel.app/"
     },
     {
       img: forth,
       langs: ["jsx", "css", "javascript", "node.js", "express js", "mongo db"],
       title: "Elx Academy",
       disc: "A full stack application for registering students who wants to learn tech skills",
-      link: "https://elx-academy.netlify.app/"
+      link: "https://elx-academy.vercel.app/"
     },
     {
       img: fifth,
